@@ -1,7 +1,7 @@
 # OnlineAttendanceJapClass
 Online Attendance Web based appplication frontend and backend
 
-#System requirements:
+# System requirements:
   -> Frontend
     - html
     - css
