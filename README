@@ -1,0 +1,33 @@
+-- CREATE TABLE Batch (
+-- id INTEGER  PRIMARY KEY AUTOINCREMENT NOT NULL,
+-- title text NOT NULL,
+-- createdate DATE NOT NULL,
+-- levelname text NOT NULL
+-- );
+
+
+-- CREATE TABLE Student (
+-- id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+-- batch_id TEXT,
+-- name text NOT NULL,
+-- feepayment BOOLEAN NOT NULL,
+-- FOREIGN KEY(batch_id) REFERENCES Batch(id)
+-- );
+
+
+-- CREATE TABLE AttendanceTable (
+-- attendance_id text PRIMARY key NOT NULL,
+-- student_id text,
+-- action_attend BOOLEAN NOT NULL,
+-- classdate DATE NOT NULL,
+-- FOREIGN KEY(student_id) REFERENCES Student(id));
+
+
+-- select * from AdminAuth ;
+
+-- CREATE TABLE AdminAuth(
+-- username text not null,
+-- password_auth text not null);
+
+
+
